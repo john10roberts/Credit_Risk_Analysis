@@ -72,5 +72,7 @@ Using the dataset, we have received from LendingClub, a peer-to-peer lending ser
 ![EasyEnsembleClassifier](https://github.com/john10roberts/Credit_Risk_Analysis/blob/main/Resources/EasyEnsembleClassifier.png)
 
 ## Summary
-After evaluating each of the machine learning algorithm models, the EasyEnsemble Classifier model has the highest balanced accuracy score at 92% and a precision rank of 9% when it comes to predicting high risk customers. The low-risk sensitivity was 94% and it had a low risk f1 score of 97%. This model performed better than any of the other models. The data itself might carry an implicit bias with over 95% of the eligible loans showing as low risk. This could skew the data it might make more sense to build the models on loan data from the loans charged off or paid off to see if there were ways to identify risk from this data.
+After evaluating each of the machine learning algorithm models, the EasyEnsemble Classifier model has the highest balanced accuracy score at 92% and a precision rank of 9% when it comes to predicting high risk customers. The low-risk sensitivity was 94% and it had a low risk f1 score of 97%. This model performed better than any of the other models and is my recommendation to use. 
+
+The data itself might carry an implicit bias with over 99% of the eligible loans showing as low risk. This could skew the data it might make more sense to build the models on loan data from the loans charged off or paid off to see if there were ways to identify risk from this data.
 
